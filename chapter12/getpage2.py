@@ -1,0 +1,8 @@
+import requests
+res = requests.get('https://automatetheboringstuff.com/files/rj.tx')
+try:
+    res.raise_for_status()
+except Exception as exc:
+    print(f'問題あり：{exc}')
+
+print(res.text[:250])
