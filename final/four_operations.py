@@ -22,9 +22,11 @@ print('差：', one - two)
 # 積
 print('積：', one * two)
 # 商
+# 剰余
 if two > 0:
     print('商：', one // two)
     print('剰余：', one % two)
+#0の場合
 else:
     pass
 #pass文は何もしないとサイトに書かれてたので使用しました！
